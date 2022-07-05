@@ -1,0 +1,73 @@
+#a{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 200;
+text-align: center;
+}
+
+#b
+{
+   
+    padding: 2px;letter-spacing: 1px ;box-sizing: 100%;
+   
+  float: left;
+   font-style: italic;
+
+ 
+  
+}
+
+    table, th, td{
+border: 1px solid;
+border-collapse: collapse;
+padding: 5px;
+margin: 5px;
+
+
+
+    }
+
+#aa:hover{
+    color: rgb(198, 71, 130);
+}
+/* #bor{
+ border-radius: 5px rgb(229, 31, 31);
+    border-color: blueviolet;
+} */
+div {
+padding: 20px;
+margin: 20px;
+  
+    animation-name: example;
+    animation-duration: 10s;
+    width: auto;
+    align-content: left;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  }
+@keyframes example {
+    0%   {background-color:rgb(43, 45, 44);}
+    25%  {background-color:rgb(134, 144, 131);}
+    50%  {background-color:rgb(171, 171, 180); }
+    75%  {background-color:rgb(171, 218, 218); }
+    100% {background-color:rgb(115, 161, 152);}
+    }
+
+#abc{
+    font-family: 'Poppins', sans-serif;
+}    
+
+#c{
+    box-sizing: border-box;
+    float: left;
+    width: 75%;
+    align-content: left;
+
+}
+#IDE{
+float: right;
+width: 25%;
+border: 2px;
+background-origin: padding-box;
+background-color: beige;
+animation-name: example;
+}
